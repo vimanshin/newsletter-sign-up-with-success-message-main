@@ -1,0 +1,7 @@
+node_modules
+dist
+.agents
+.codex
+AGENTS.md
+package-lock.json
+public/**/*.svg
