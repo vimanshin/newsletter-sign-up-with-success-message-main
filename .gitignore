@@ -41,4 +41,5 @@ Thumbs.db
 # Local AI assistant configuration
 /.agents/
 /.codex/
+/plan-project/
 /AGENTS.md

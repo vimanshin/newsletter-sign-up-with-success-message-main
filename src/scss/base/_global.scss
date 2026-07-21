@@ -1,0 +1,21 @@
+@use '@/scss/abstracts/mixins';
+@use '@/scss/abstracts/variables';
+@include mixins.local-font-face(
+  variables.$font-family-name,
+  variables.$font-weight-regular,
+  '@/assets/fonts/Roboto-Regular.ttf'
+);
+@include mixins.local-font-face(
+  variables.$font-family-name,
+  variables.$font-weight-bold,
+  '@/assets/fonts/Roboto-Bold.ttf'
+);
+
+body {
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-regular;
+  line-height: variables.$line-height-body;
+  color: variables.$color-blue-800;
+  background-color: variables.$color-white;
+}

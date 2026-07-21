@@ -1,0 +1,46 @@
+// Цвета
+$color-red: #ff6155;
+$color-red-100: #ffe7e6;
+$color-blue-800: #242742;
+$color-blue-700: #36384d;
+$color-grey: #949494;
+$color-white: #fff;
+
+// Типографика
+$font-family-name: 'Roboto';
+$font-family-base: $font-family-name, Arial, sans-serif;
+$font-size-title-mobile: 2.5rem;
+$font-size-title-large: 3.5rem;
+$font-size-body: 1rem;
+$font-size-label: 0.75rem;
+$font-size-button: 1rem;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$line-height-title: 1;
+$line-height-body: 1.5;
+$letter-spacing-default: 0;
+
+// Отступы
+$spacing-100: 0.5rem;
+$spacing-200: 1rem;
+$spacing-300: 1.5rem;
+$spacing-400: 2rem;
+$spacing-500: 2.5rem;
+$spacing-600: 3rem;
+$spacing-800: 4rem;
+$spacing-900: 4.5rem;
+$spacing-1300: 6.5rem;
+
+// Геометрия
+$control-height: 3.5rem;
+$control-border-radius: 0.5rem;
+$control-border-width: 1px;
+$list-icon-size: 21px;
+$success-icon-size: 64px;
+$illustration-border-radius: 1rem;
+$card-border-radius: 2.25rem;
+
+// Эффекты
+$card-shadow: 0 24px 32px rgb(0 0 0 / 10%);
+$button-active-gradient: linear-gradient(to right, #ff6a3a, #ff527b);
+$button-active-shadow: 0 16px 32px rgb(255 97 85 / 50%);
